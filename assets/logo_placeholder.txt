@@ -1,9 +1,0 @@
-CodeDex Pro Logo Description:
-
-A sleek, modern logo featuring:
-- The name "CodeDex Pro" in bold typography
-- A stylized Pokéball icon with a QR code pattern inside
-- Color scheme: Dark background with yellow/gold accents
-- Professional look and feel suitable for a developer tool
-
-This will be created as a proper PNG image file with transparent background. 
