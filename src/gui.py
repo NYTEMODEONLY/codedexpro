@@ -437,7 +437,7 @@ class SettingsDialog(QDialog):
         self.scan_interval_spinbox = QSpinBox()
         self.scan_interval_spinbox.setMinimum(100)
         self.scan_interval_spinbox.setMaximum(2000)
-        self.scan_interval_spinbox.setSingleStep(100)
+        self.scan_interval_spinbox.setSingleStep(50)
         self.scan_interval_spinbox.setValue(self.config.scan_interval)
         self.scan_interval_spinbox.setSuffix(" ms")
         detection_layout.addRow("Scan interval:", self.scan_interval_spinbox)

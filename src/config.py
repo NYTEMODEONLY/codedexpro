@@ -13,9 +13,9 @@ class Config:
         self.debug_mode = os.environ.get('DEBUG', 'False').lower() == 'true'
         
         # Auto detection settings
-        self.auto_detect = os.environ.get('AUTO_DETECT', 'True').lower() == 'true'
-        self.scan_interval = int(os.environ.get('SCAN_INTERVAL', '500'))  # milliseconds
-        self.scan_cooldown = float(os.environ.get('SCAN_COOLDOWN', '2.0'))  # seconds
+        self.auto_detect = os.environ.get('AUTO_DETECT', 'true').lower() == 'true'
+        self.scan_interval = int(os.environ.get('SCAN_INTERVAL', '350'))  # milliseconds
+        self.scan_cooldown = float(os.environ.get('SCAN_COOLDOWN', '1.5'))  # seconds
                 
     def update_setting(self, key, value):
         """
