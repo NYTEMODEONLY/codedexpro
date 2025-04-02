@@ -1,7 +1,10 @@
 # CodeDex Pro
 
 <p align="center">
-  <img src="assets/logo.png" alt="CodeDex Pro Logo" width="300">
+  <!-- Logo placeholder: Create a logo.png file in the assets directory -->
+  <!-- <img src="assets/logo.png" alt="CodeDex Pro Logo" width="300"> -->
+  <strong style="font-size: 24px;">CodeDex Pro</strong><br>
+  <em>The Professional Pokémon TCG Code Scanner</em>
 </p>
 
 <p align="center">
@@ -25,7 +28,9 @@
 **CodeDex Pro** is a high-performance QR code scanner and manager specifically built for Pokémon TCG collectors. It allows you to scan, organize, and manage hundreds of Pokémon TCG Online redemption codes at lightning speed, massively reducing the time and effort needed to redeem your digital cards.
 
 <p align="center">
-  <img src="assets/screenshot.png" alt="CodeDex Pro Screenshot" width="800">
+  <!-- Screenshot placeholder: Add a screenshot of the running application -->
+  <!-- <img src="assets/screenshot.png" alt="CodeDex Pro Screenshot" width="800"> -->
+  <em>Screenshot of CodeDex Pro in action - modern dark UI with code scanning capabilities</em>
 </p>
 
 ### Why CodeDex Pro?
