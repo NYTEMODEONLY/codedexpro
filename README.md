@@ -58,8 +58,8 @@ While the Pokémon TCG Online app allows you to scan codes, it's a tedious, one-
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/codedex-pro.git
-   cd codedex-pro
+   git clone https://github.com/NYTEMODEONLY/codedexpro.git
+   cd codedexpro
    ```
 
 2. Install dependencies:
@@ -67,7 +67,13 @@ While the Pokémon TCG Online app allows you to scan codes, it's a tedious, one-
    pip install -r requirements.txt
    ```
 
-3. Run the application:
+3. Set up your environment variables:
+   ```bash
+   cp .env.example .env
+   ```
+   Edit the `.env` file to customize your settings. This file contains configuration for camera, scanning rates, and other preferences. Note that sensitive information should only be stored in your local `.env` file (which is git-ignored) and never committed to version control for security reasons.
+
+4. Run the application:
    ```bash
    python codedexpro.py
    ```
